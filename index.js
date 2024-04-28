@@ -3,6 +3,8 @@ var socket = require('socket.io');
 
 // App setup
 var app = express();
+
+//allow all
 var server = app.listen(4000, function(){
     console.log('listening for requests on port 4000,');
 });
